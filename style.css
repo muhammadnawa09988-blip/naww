@@ -1,15 +1,19 @@
 body {
     background-color: #0000FF; /* Warna biru */
     font-family: Arial, sans-serif;
-    color: #0000FF; /* Warna teks utama (Biru) */
+    color: #FFFFFF; /* Warna teks utama diganti putih agar kontras */
+    margin: 0;
+    padding: 0;
 }
 
 .kartu-profil {
     width: 300px;
+    max-width: 90%; /* Supaya responsif di layar kecil */
     margin: 50px auto; /* 50px jarak atas/bawah, auto menengahkan kiri/kanan */
     padding: 20px;
-    background-color: white;
+    background-color: #FFFFFF;
     border-radius: 15px; /* Membuat sudut menjadi melengkung */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Efek bayangan lebih jelas */
     text-align: center; /* Menengahkan semua teks di dalam kartu */
+    color: #000000; /* Warna teks dalam kartu */
 }
